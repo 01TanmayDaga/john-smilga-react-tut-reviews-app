@@ -3,7 +3,7 @@ import Review from "./Review";
 
 function Reviews(props) {
   return (
-    <div className="self-center bg-[#FFFFFF] w-3/6 flex-row justify-center rounded-lg sm:w-5/6">
+    <div className="self-center bg-[#FFFFFF] w-3/6 flex-row justify-center rounded-lg max-md:w-5/6">
       <Review review={props.review}></Review>
       <div className="flex-row align-middle justify-center ">
         <div className="flex align-middle justify-center m-2">
